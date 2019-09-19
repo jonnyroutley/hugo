@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-GB"
+title = "Jonathan Routley"
+theme = "blank"

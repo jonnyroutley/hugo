@@ -1,0 +1,8 @@
+<!-- insert images -->
+{{ with .Resources.Match "images/*" }}
+    <div class="image">
+    {{ range . }}
+        <img src="{{ .RelPermalink }}">
+    {{ end }}
+    </div>
+{{ end }}

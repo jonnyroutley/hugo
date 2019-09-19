@@ -1,0 +1,5 @@
+{{ $albumUrl := print "/content/photography/images/" ($.Get 0) }}
+{{ range readDir $albumUrl }}
+    {{ $imgURL := print "photography/images/" ($.Get 0) "/" .Name | absURL }}
+    <p><img src="{{ $imgURL }}"/></p>
+{{ end }}
