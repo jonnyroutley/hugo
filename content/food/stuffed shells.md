@@ -1,7 +1,7 @@
 ---
 title: "Stuffed Shells"
 date: 2019-09-05T21:18:36+01:00
-draft: true
+draft: false
 ---
 
 **Yield:** 4 large servings
