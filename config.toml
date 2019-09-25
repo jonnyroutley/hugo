@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://jonathanroutley.com/"
 languageCode = "en-GB"
 title = "Jonathan Routley"
-theme = "blank"
+theme = "jr_website_custom"
