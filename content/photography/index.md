@@ -5,12 +5,8 @@ draft: false
 type: "photography"
 ---
 
-<!-- ![test-image](images/landscape/FM211.jpg) -->
-Cameras:
 
-- Nikon FM2
-- Olympus OM-10
-
+Shot with a Nikon FM2 (28-85mm f/3.6) and an Olympus OM-10 (50mm f/1.8)
 
 {{< gallery caption-position="none" dir="/images/1/" />}} {{< load-photoswipe >}}
 
