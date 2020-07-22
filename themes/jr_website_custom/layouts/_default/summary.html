@@ -1,5 +1,5 @@
 <article>
-	<p class='title_summary'><a href="{{ .Permalink }}"><strong>{{ .Title }}</strong>, {{ .Date.Format "Jan 2, 2006" }}</a></p>
+	<p class='title_summary'><a href="{{ .Permalink }}">{{ .Date.Format "02 Jan 06" }}: <strong>{{ .Title }}</strong></a></p>
 	{{ range .Params.tags }}
 	<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
 	{{ end }}
