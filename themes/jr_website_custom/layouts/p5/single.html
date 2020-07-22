@@ -1,0 +1,23 @@
+{{ define "main" }}
+	<main class = 'post' id="main_page">
+		<article>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+			<h1>{{ .Title }}</h1>
+			<div>
+				{{ .Content }}
+			</div>
+			<script src="{{ .Params.script }}"></script>
+			<div>
+				<ul id="tags">
+					{{ range .Params.tags }}
+					<li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			<div>
+				{{ template "_internal/disqus.html" . }}
+			</div>
+		</article>
+	</main>
+<!-- {{ partial "sidebar.html" . }} -->
+{{ end }}
