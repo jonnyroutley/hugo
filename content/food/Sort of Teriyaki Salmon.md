@@ -16,7 +16,7 @@ A _sort of_ teriyaki-style dish (garlic/ginger not traditional) that is pretty e
 - 500g Salmon fillet
 
 - 2 tbsp {{% tooltip %}}Fermented Garlic Honey{{% definition %}}Mix a head of peeled garlic cloves with a jar of raw honey and let sit at room temp, stirring every few days for at least a week before using.{{% /definition %}}{{% /tooltip %}}
-  
+ 
 - 2 tbsp Soy Sauce
 
 - 2 tbsp Mirin
