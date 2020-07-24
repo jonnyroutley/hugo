@@ -29,7 +29,7 @@ figure {
 }
 
 
-@media only screen and (min-width : 365px) {
+@media only screen and (min-width : 480px) {
     /* Tablet view: 2 tiles */
     .gallery .box {
         width: 50%;
@@ -37,7 +37,7 @@ figure {
     }
 }
 
-@media only screen and (min-width : 550px) {
+@media only screen and (min-width : 768px) {
     /* Small laptop / ipad view: 3 tiles */
     .gallery .box {
         width: 33.3%;
@@ -45,7 +45,7 @@ figure {
     }
 }
 
-@media only screen and (min-width : 800px) {
+@media only screen and (min-width : 1024px) {
     /* Laptop viw: 4 tiles */
     .gallery .box {
         width: 25%;
@@ -53,13 +53,13 @@ figure {
     }
 }
 
-@media only screen and (min-width : 9999px) {
+/* @media only screen and (min-width : 9999px) { */
    /* Medium desktop: 5 tiles */
-   .box {
-      width: 20%;
-      padding-bottom: 14.5%;
-   }
-}
+   /* .box { */
+      /* width: 20%; */
+      /* padding-bottom: 14.5%; */
+   /* } */
+/* } */
 
 /*
 Transition styles
