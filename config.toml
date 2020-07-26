@@ -2,5 +2,3 @@ baseURL = "https://jonathanroutley.com/"
 languageCode = "en-GB"
 title = "Jonathan Routley"
 theme = "jr_website_custom"
-[markup.goldmark.renderer]
-unsafe= true

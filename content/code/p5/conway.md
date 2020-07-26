@@ -6,4 +6,3 @@ type: p5
 script: ../../../js/p5/conway.js
 ---
 p5 version
-<div id="p5-conway-container"></div>

@@ -6,4 +6,3 @@ type: 24a2
 script: ../../../js/24a2/conway.js
 ---
 [24a2](https://24a2.routley.io) version
-<div id='24a2-conway-container'></div>
