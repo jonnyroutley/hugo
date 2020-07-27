@@ -5,4 +5,4 @@ draft: false
 type: 24a2
 script: ../../../js/24a2/conway.js
 ---
-[24a2](https://24a2.routley.io) version
+An attempt at making Conway's game of life using [24a2](https://24a2.routley.io). You can click cells to bring them to life, and if all the cells die (or a timer runs out) a colour map will appear of the *history* of cells (how many times that circle has been alive).

@@ -5,4 +5,4 @@ draft: false
 type: p5
 script: ../../../js/p5/conway.js
 ---
-p5 version
+A p5 attempt at making Conway's game of life. Click inside the canvas to reset, or click outside to start the simulation again after the timeout. Each cell displays its *history* by colour - the lighter the cell, the more times that square has been alive.
