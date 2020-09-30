@@ -14,3 +14,6 @@ This website is built using [Hugo](https://gohugo.io/), and the code can be foun
 
 ### Generative Art
 [Verostko](p5/verostko)
+
+### Problems
+[Project Euler](euler.md)
